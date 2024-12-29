@@ -1,0 +1,58 @@
+.welcome-popup-settings {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-popup-settings h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-popup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#upload_image_button {
+    margin-bottom: 10px;
+}
+
+#image_preview img {
+    width: 300px; /* Sabit genişlik */
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-actions {
+    text-align: center;
+}
+
+.form-actions .button-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+}
